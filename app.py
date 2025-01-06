@@ -1,6 +1,7 @@
 import cv2
 import mediapipe as mp
 import  numpy as np
+import pandas
 
 mpHand = mp.solutions.hands
 hands = mpHand.Hands(
